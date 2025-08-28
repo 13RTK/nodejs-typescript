@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +12,8 @@
   "license": "ISC",
   "packageManager": "pnpm@10.14.0",
   "devDependencies": {
-    "@types/node": "^24.3.0"
+    "@tsconfig/node-lts": "^22.0.2",
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
   }
 }

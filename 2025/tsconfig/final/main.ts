@@ -27,7 +27,7 @@ const data = await readFile('./data.txt', 'utf-8');
 const leftMoveDecryptedData = data
   .split('')
   .map((currentChar) => {
-    const decryptedCharCode = currentChar.charCodeAt(0) - keychain;
+    const decryptedCharCode = currentChar.charCodeAt(0) - Number(keychain);
     return String.fromCharCode(decryptedCharCode);
   })
   .join('');
