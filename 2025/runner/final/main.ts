@@ -10,9 +10,20 @@ const justine: User = {
 
 console.log(justine);
 
-// enum Gender {
-//   Male = 'M',
-//   Female = 'F',
-// }
+enum Gender {
+  Male = 'M',
+  Female = 'F',
+}
 
-// console.log(Gender.Male);
+console.log(Gender.Male);
+
+// Other part for type check
+const idol: {
+  name: string;
+  age: number;
+} = {
+  name: 'Siyeon',
+  age: '25',
+};
+
+console.log(idol);
