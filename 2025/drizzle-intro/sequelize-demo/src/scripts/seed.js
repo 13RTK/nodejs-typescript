@@ -20,7 +20,7 @@ async function insertTodos(rowNumber = 10) {
 await syncModel();
 await insertTodos();
 
-// const todos = await Todo.findAll();
+const todos = await Todo.findAll();
 // for (const todo of todos) {
 //   const num = todo.email;
 
