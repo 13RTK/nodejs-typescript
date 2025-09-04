@@ -22,7 +22,7 @@ await insertTodos();
 
 // const todos = await Todo.findAll();
 // for (const todo of todos) {
-//   const num = Number(todo.email);
+//   const num = todo.email;
 
 //   console.log(num);
 // }
